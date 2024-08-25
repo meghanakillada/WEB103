@@ -39,6 +39,10 @@ const ViewCreator = ({data}) => {
             <a href={creator.url} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
                 Visit Channel
             </a>
+            <br/>
+            <a href={'/edit/' + creator.id} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <button className="headerBtn"> Edit </button>
+            </a>
         </div>
     )
 }

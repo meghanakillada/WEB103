@@ -1,0 +1,68 @@
+.EditCreator form {
+    display: flex;
+    flex-direction: column;
+}
+
+.EditCreator form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.EditCreator form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.EditCreator form input[type="submit"],
+.EditCreator form .deleteButton {
+    padding: 10px 15px;
+    margin: 5px 0;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.EditCreator form input[type="submit"] {
+    background-color: #28a745;
+}
+
+.EditCreator form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.EditCreator form .deleteButton {
+    background-color: #dc3545;
+}
+
+.EditCreator form .deleteButton:hover {
+    background-color: #c82333;
+}
+
+.EditCreator .btn-primary {
+    display: block;
+    margin: 20px 0;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.EditCreator .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.url {
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}

@@ -15,7 +15,7 @@ A person's top content creators can say a lot about them. Do they prefer lockpic
 A simple version of the app with all the required features implemented:
 
 :::success
-<a href="/course_images/web103/prework/prework.gif" target="_blank"><img src='/' title='Screenshot of app with core features implemented' width='600' alt='Screenshot of app with core features implemented' /></a>
+<a href="/course_images/web103/prework/prework.gif" target="_blank"><img src='WEB103_prework.gif' title='Screenshot of app with core features implemented' width='600' alt='Screenshot of app with core features implemented' /></a>
 :::
 
 Your **mission** 🧑‍🚀 is to build a frontend that supports CRUD (create, read, update, and delete) operations on your favorite content creators. Your content creators can be Twitch streamers, YouTube channels, Instagram personalities, TikTok accounts, or similar. Heck, they can even be Mastodon microbloggers.

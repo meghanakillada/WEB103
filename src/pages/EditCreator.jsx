@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { supabase } from '../client'
+import { supabase } from '../client';
+import './EditCreator.css';
+
 
 const EditCreator = ({data}) => {
 
@@ -69,11 +71,12 @@ const EditCreator = ({data}) => {
             <div>
                 {creator.imageURL && <img src={creator.imageURL} alt={`${creator.name}'s profile`} className="card-img-top" />}
                 <h2>{creator.name}</h2>
-                <h3 className="url">{creator.description}</h3>
-                <a href={creator.url} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <h3>{creator.description}</h3>
+                <a href={creator.url} target="_blank" rel="noopener noreferrer">
                     Visit Channel
                 </a>
             </div>
+            <br/>
             <div>
                 <form>
                     <label>Name</label> <br />
@@ -90,7 +93,7 @@ const EditCreator = ({data}) => {
                     <br/>
                     <input type="submit" value="Submit" onClick={updateCreator} />
                     <button className="deleteButton" onClick={deleteCreator}>Delete</button>
-                </form>
+                </form> 
             </div>
         </div>  
     )
